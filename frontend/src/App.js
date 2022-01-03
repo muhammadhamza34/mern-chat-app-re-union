@@ -1,6 +1,7 @@
 
 
-  import { Route } from 'react-router-dom';
+import axios from 'axios';
+import { Route } from 'react-router-dom';
 import './App.css';
 import ChatPage from './pages/chatPage';
 import HomePage from './pages/HomePage';

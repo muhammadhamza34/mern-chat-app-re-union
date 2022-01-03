@@ -9,6 +9,7 @@ const Chatpage = () => {
   const [fetchAgain, setFetchAgain] = useState(false);
   const { user } = ChatState();
 
+  console.log('load chat')
   return (
     <div style={{ width: "100%" }}>
       {user && <SideDrawer />}
